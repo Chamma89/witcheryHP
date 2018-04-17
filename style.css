@@ -41,6 +41,7 @@ h1 {
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 14px;
+  margin-bottom: 8%;
 }
 
 .nav {
@@ -101,6 +102,10 @@ nav {
   margin-top: 25%;
 }
 
+#shop {
+  margin-left: 35px;
+}
+
 .section {
   float: left;
   width: 50%;
@@ -126,6 +131,11 @@ nav {
  width: 35%;
 }
 
+.section5 {
+ float: left; 
+ width: 35%;
+}
+
 .links {
   display: block;
   margin: 0 auto;
@@ -142,4 +152,37 @@ nav {
   float: left;
   position: bottom;
   text-align: center;   
+}
+
+.STC {
+  margin-top: 10%;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.STC:before, .STC:after {
+  background-color: #333;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+}
+
+.STC:before {
+  margin-left: -50%;
+  text-align: right;
+  right: 0.8em;
+}
+
+.STC:after {
+ left: 0.8em;
+ margin-right: -50%;
 }
