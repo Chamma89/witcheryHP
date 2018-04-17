@@ -1,0 +1,41 @@
+body {
+  margin: 5px, 10px, 5px, 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  margin: 2%;
+}
+
+a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  font-weight: 900;
+  padding: 2%;
+}
+
+.links {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition-duration: 2s;
+}
+
+img {
+  width: 100%;
+}
