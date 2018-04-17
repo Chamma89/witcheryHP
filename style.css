@@ -1,6 +1,5 @@
 body {
   margin: 5px, 10px, 5px, 10px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .main {
@@ -14,28 +13,85 @@ h1 {
   text-align: center;
   font-weight: lighter;
   margin: 2%;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;  
 }
 
-a {
+#p1 {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  margin-top: 15%;
+  font-family: 'Old Standard TT', serif;
+}
+
+.nav {
   margin-left: 50px;
   text-decoration: none;
   color: black;
   margin: 5px;
   font-weight: 900;
   padding: 2%;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;  
 }
 
-.links {
+nav {
   text-align: center;
   width: 100%;
   margin-bottom: 1%;
 }
 
-a:hover {
+.nav:hover {
   text-decoration: underline;
   transition-duration: 2s;
 }
 
-img {
+#image1 {
   width: 100%;
+  margin-bottom: 5%;  
+}
+
+#image2 {
+  width: 100%;
+  margin-bottom: 5%;
+  max-height: 20%;
+  float: left;
+}
+
+#image3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  float: right;
+  margin-top: 25%;
+}
+
+.section {
+  float: left;
+  width: 50%;
+}
+
+.section1 {
+  float: right;
+  width: 30%;
+}
+
+.links {
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.links2 {
+  width: 100%;  
+  display: block;;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  position: bottom;
+  text-align: center;   
 }
