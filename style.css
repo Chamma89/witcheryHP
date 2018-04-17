@@ -26,6 +26,23 @@ h1 {
   font-family: 'Old Standard TT', serif;
 }
 
+#p2 {
+  text-align: left;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin-top: 70%;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif; 
+  text-align: left;
+}
+
+#p3 {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
 .nav {
   margin-left: 50px;
   text-decoration: none;
@@ -68,6 +85,22 @@ nav {
   margin-top: 25%;
 }
 
+#image4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  float: right;
+  margin-top: 25%;
+}
+
+#image5 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  float: left;
+  margin-top: 25%;
+}
+
 .section {
   float: left;
   width: 50%;
@@ -76,6 +109,21 @@ nav {
 .section1 {
   float: right;
   width: 30%;
+}
+
+.section2 {
+  width: 40%;
+  float: left; 
+}
+
+.section3 {
+ float: right; 
+ width: 50%;
+}
+
+.section4 {
+ float: left; 
+ width: 35%;
 }
 
 .links {
